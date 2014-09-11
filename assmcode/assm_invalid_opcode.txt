@@ -1,0 +1,4 @@
+
+##TEST JOB INVALID OPCODE##
+An Invalid Opcode is given just a single value 001F is qiven.
+No Assembly Instruction for it.

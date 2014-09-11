@@ -1,0 +1,52 @@
+			## SOFTWARE ENGINEERING ISSSUES ###
+
+General Approach
+
+-I have used some pseudo code so that i can make my design easier.
+
+-I have written my simulation in Java. I used the Netbeans IDE, JDK & JRE 1.7 bundle to develop and execute my simulation. The IDE has built in debugger to debug the files.
+
+-BULK COMPLEXITIES
+	- # of Files   	   : 7
+	- # of Classes     : 9
+	- # of Methods     : 36
+	- # of Code	   : 175 + 167 + 717 = 1059
+	- NOB		   : 175
+	- NOC		   : 167
+	- EXS		   : 717
+	- NOD		   : 106
+	- NOSF		   : 39
+	- NOSM		   : 13
+					NOB	NOC	EXS	NOM	NOD
+		CPU			71	56	343	7	75
+		ErrorHandler		25	31	95	5	16		
+		Loader			12	11	42	2	3
+		Memory			9	8	14	2	0
+		Stack			18	4	70	12	4
+		System			6	1	22	1	2
+		Variable		34	41	131	7	6
+					
+					175	167	717	36	106
+		
+NOB = # of blank lines, NOC= # of comments, EXS= # of Executable Statements
+NOM = # of Methods, NOD= # of decisions, NOSF = # of Static Variables
+NOSM = # of Static Methods
+
+-		DESIGNING : 30 Working Hours
+		CODING 	  : 20 Working Hours
+		TESTING	  : 30 Working Hours
+		
+
+- As Java being platform independent my simulation can work in other operating systems (Windows or Linux)
+
+- As Java being an object oriented language so that to make my simulation more modular I prefer Java to others. Its gives an ease to implement Threads which might required in the future simulations(for steps 2 and 3) so I prefer it. As if there is any problem with a single class i can change only that class rather than making the code more complex to understand
+  
+  
+
+
+
+
+
+
+
+

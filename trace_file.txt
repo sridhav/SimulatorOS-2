@@ -1,0 +1,2 @@
+PC  	BR  	IR  	TOS 	S[TOS]	EA  	MEM[EA]	TOS 	S[TOS]	EA  	MEM[EA]	
+

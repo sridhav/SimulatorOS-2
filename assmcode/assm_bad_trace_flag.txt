@@ -1,0 +1,5 @@
+
+##TEST JOB BAD TRACE FLAG##
+RD
+WR
+HLT
